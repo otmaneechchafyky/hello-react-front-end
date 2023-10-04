@@ -7,8 +7,12 @@ function App() {
   return (
     <Router>
       <div className="App">
-        <Routes> {/* Wrap your routes with Routes */}
-          <Route path="/" element={<Greeting />} /> {/* Use "element" instead of "component" */}
+        <Routes>
+          {' '}
+          {/* Wrap your routes with Routes */}
+          <Route path="/" element={<Greeting />} />
+          {' '}
+          {/* Use "element" instead of "component" */}
         </Routes>
       </div>
     </Router>
